@@ -1,4 +1,4 @@
-f# CXL is All You Need
+# CXL is All You Need
 
 > A comprehensive, curated repository for Compute Express Link (CXL)
 > Covering Research Papers, Specifications, Simulation/Emulation tools, Benchmarks, and Resources for Type 1, 2, & 3 Devices.
@@ -204,7 +204,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 ## Contributing
 - JSL  M.S Inha university
-  If you want to contribute on a "CXL is All You Need", please contact wlstjr4425@gmail.com.
+- If you want to contribute on a "CXL is All You Need", please contact wlstjr4425@gmail.com.
 
 ## License
 - MIT
