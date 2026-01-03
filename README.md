@@ -38,7 +38,7 @@ CXL enables the shift from server-centric to data-centric architecture.
 <img width="1557" height="871" alt="Image" src="https://github.com/user-attachments/assets/4d791456-0bfc-482d-82fb-63298593005e" />
 
 
-### CXL 1.1 / 2.0
+### CXL 1.x
 * CXL 1.0 and 1.1 represent the nascent stage of the technology, based on the PCIe 5.0 physical layer (32 GT/s). A key characteristic of this phase is that it is limited to Single Node configurations. That is, it supports only a 1:1 connection structure between one host processor and one CXL device. Therefore, CXL 1.1 is primarily used for Direct Attached memory expansion or simple accelerator connections without switches.   
 
 
