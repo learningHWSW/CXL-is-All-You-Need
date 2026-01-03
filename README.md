@@ -1,4 +1,4 @@
-# CXL is All You Need
+f# CXL is All You Need
 
 > A comprehensive, curated repository for Compute Express Link (CXL)
 > Covering Research Papers, Specifications, Simulation/Emulation tools, Benchmarks, and Resources for Type 1, 2, & 3 Devices.
@@ -131,9 +131,14 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 * Gem5 provides cycle-accurate simulation for hardware architectures, used for precise analysis of CXL performance impacts. While QEMU focuses on functional emulation, Gem5 excels in timing and latency modeling.
 * CXLSim & gem5-CXL: Researchers have released repositories like 'CXLSim' or 'gem5-CXL' extending Gem5 to model CXL transaction and link layer latencies. These models simulate FLIT packing/unpacking overheads, switch delays (e.g., tens of ns per hop), and PCIe bus contention.
 * Usage: In Full System mode, booting a real Linux kernel and running benchmarks allows analysis of how CXL memory latency affects overall system IPC (Instructions Per Cycle) and application performance.   
+- gem5-CXL [link](https://github.com/SlugLab/gem5-CXL)
 
-1. gem5-CXL [link](https://github.com/SlugLab/gem5-CXL)
-2. CXLSim [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10936878&casa_token=rhmkm_VCCTAAAAAA:Xp7PqW9c-N9hGD-Oxkwq8i4oOXIDt-oE72BJdH0sa6Wq3fvtJWdRsuBqi2BVqimXx-XkLw&tag=1)
+### CXL Simulation
+- Yang, Yiwei, et al. "CXLMemSim: A pure software simulated CXL. mem for performance characterization." arXiv preprint arXiv:2303.06153 (2023). [PDF](https://arxiv.org/pdf/2303.06153) [github](https://github.com/SlugLab/CXLMemSim)
+- CXLSim [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10936878&casa_token=rhmkm_VCCTAAAAAA:Xp7PqW9c-N9hGD-Oxkwq8i4oOXIDt-oE72BJdH0sa6Wq3fvtJWdRsuBqi2BVqimXx-XkLw&tag=1)
+
+### CXL Emulation
+- OCEAN – Open-source CXL Emulation at Hyperscale Architecture and Networking [github](https://github.com/cxl-emu/OCEAN)
 
 ### Intel CoFluent / DRAMSys
 * Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
