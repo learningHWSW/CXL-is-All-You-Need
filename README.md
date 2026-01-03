@@ -37,107 +37,107 @@ CXL enables the shift from server-centric to data-centric architecture.
 [CXL consortium](https://computeexpresslink.org/)
 
 ### CXL 1.1 / 2.0
-CXL 1.0 and 1.1 represent the nascent stage of the technology, based on the PCIe 5.0 physical layer (32 GT/s). A key characteristic of this phase is that it is limited to Single Node configurations. That is, it supports only a 1:1 connection structure between one host processor and one CXL device. Therefore, CXL 1.1 is primarily used for Direct Attached memory expansion or simple accelerator connections without switches.   
+* CXL 1.0 and 1.1 represent the nascent stage of the technology, based on the PCIe 5.0 physical layer (32 GT/s). A key characteristic of this phase is that it is limited to Single Node configurations. That is, it supports only a 1:1 connection structure between one host processor and one CXL device. Therefore, CXL 1.1 is primarily used for Direct Attached memory expansion or simple accelerator connections without switches.   
 
 
 ### CXL 2.x
-CXL 2.0, announced in 2020, is a pivotal specification driving commercial adoption. While retaining the PCIe 5.0 (32 GT/s) physical layer, it introduced CXL Switching to significantly enhance system flexibility.
+* CXL 2.0, announced in 2020, is a pivotal specification driving commercial adoption. While retaining the PCIe 5.0 (32 GT/s) physical layer, it introduced CXL Switching to significantly enhance system flexibility.
 
-Switching & Pooling: Single-level switches allow a host to access multiple devices, or multiple hosts to share a memory pool. This is the core technology enabling dynamic resource allocation.   
+* Switching & Pooling: Single-level switches allow a host to access multiple devices, or multiple hosts to share a memory pool. This is the core technology enabling dynamic resource allocation.   
 
-Multi-Logical Device (MLD): Supports partitioning a single physical CXL memory device into up to 16 logical devices, enabling different hosts to use distinct partitions simultaneously.   
+* Multi-Logical Device (MLD): Supports partitioning a single physical CXL memory device into up to 16 logical devices, enabling different hosts to use distinct partitions simultaneously.   
 
-Security: CXL IDE (Integrity and Data Encryption) was introduced to ensure data integrity and confidentiality at the link level.   
+* Security: CXL IDE (Integrity and Data Encryption) was introduced to ensure data integrity and confidentiality at the link level.   
 
-Global Persistent Flush: Standardized functionality to safely store data during system power loss.   
+* Global Persistent Flush: Standardized functionality to safely store data during system power loss.   
 
 ### CXL 3.x
-CXL 3.0, released in August 2022, achieved a leap in data transfer speed and scalability. Based on the PCIe 6.0 physical layer, bandwidth doubled to 64 GT/s, and the signaling method changed from NRZ to PAM4 (Pulse Amplitude Modulation 4-level).   
+* CXL 3.0, released in August 2022, achieved a leap in data transfer speed and scalability. Based on the PCIe 6.0 physical layer, bandwidth doubled to 64 GT/s, and the signaling method changed from NRZ to PAM4 (Pulse Amplitude Modulation 4-level).   
 
-Fabric Capabilities: Going beyond single-level switching, it supports Multi-level Switching, enabling complex fabric topologies like Spine-Leaf. This allows for large-scale system configurations extending beyond the rack.   
+* Fabric Capabilities: Going beyond single-level switching, it supports Multi-level Switching, enabling complex fabric topologies like Spine-Leaf. This allows for large-scale system configurations extending beyond the rack.   
 
-Peer-to-Peer (P2P): Supports direct data exchange between devices without passing through the host CPU. This maximizes efficiency for GPU-to-GPU data transfer or storage-to-memory communication.   
+* Peer-to-Peer (P2P): Supports direct data exchange between devices without passing through the host CPU. This maximizes efficiency for GPU-to-GPU data transfer or storage-to-memory communication.   
 
-Memory Sharing: While CXL 2.0 pooling involved "partitioning," CXL 3.0 supports true "sharing." Hardware-based coherency management allows multiple hosts to access and modify the same memory address space (Cache Line) concurrently.   
+* Memory Sharing: While CXL 2.0 pooling involved "partitioning," CXL 3.0 supports true "sharing." Hardware-based coherency management allows multiple hosts to access and modify the same memory address space (Cache Line) concurrently.   
 
-CXL 3.1, released in late 2023, further strengthens fabric scalability and security.
+* CXL 3.1, released in late 2023, further strengthens fabric scalability and security.
 
-Port Based Routing (PBR): Improved routing mechanisms for massive fabric expansion.   
+* Port Based Routing (PBR): Improved routing mechanisms for massive fabric expansion.   
 
-Trusted Security Protocol (TSP): Extends security scope to accelerators and memory devices, supporting virtualization-based Trusted Execution Environments (TEE) and enabling safe processing of Confidential Computing workloads.   
+* Trusted Security Protocol (TSP): Extends security scope to accelerators and memory devices, supporting virtualization-based Trusted Execution Environments (TEE) and enabling safe processing of Confidential Computing workloads.   
 
-Extended Metadata: Expanded metadata fields to exchange more sophisticated state information between hosts and devices.   
+* Extended Metadata: Expanded metadata fields to exchange more sophisticated state information between hosts and devices.   
 
 ### CXL 4.0
-[PDF] (https://computeexpresslink.org/wp-content/uploads/2025/12/CXL_4.0-Webinar_December-2025_FINAL.pdf)
+* [PDF](https://computeexpresslink.org/wp-content/uploads/2025/12/CXL_4.0-Webinar_December-2025_FINAL.pdf)
 
 ### PHY & Electrical Specs
-The physical layer of CXL relies heavily on PCIe technology.
+* The physical layer of CXL relies heavily on PCIe technology.
 
-Signal & Speed: CXL 1.x/2.0 uses PCIe 5.0 (32 GT/s), while CXL 3.x uses PCIe 6.0 (64 GT/s). The PAM4 signaling introduced in CXL 3.0 transfers twice the data per clock but requires stronger Forward Error Correction (FEC) to ensure signal integrity.   
+* Signal & Speed: CXL 1.x/2.0 uses PCIe 5.0 (32 GT/s), while CXL 3.x uses PCIe 6.0 (64 GT/s). The PAM4 signaling introduced in CXL 3.0 transfers twice the data per clock but requires stronger Forward Error Correction (FEC) to ensure signal integrity.   
 
-Flit Structure: CXL uses fixed-size Flits (Flow Control Units) for low-latency communication. CXL 1.1/2.0 uses 68-byte Flits, whereas CXL 3.0 introduces 256-byte Flits for high bandwidth and FEC support. However, it selectively supports 68-byte mode for latency-sensitive applications.   
+* Flit Structure: CXL uses fixed-size Flits (Flow Control Units) for low-latency communication. CXL 1.1/2.0 uses 68-byte Flits, whereas CXL 3.0 introduces 256-byte Flits for high bandwidth and FEC support. However, it selectively supports 68-byte mode for latency-sensitive applications.   
 
-Latency: By bypassing the heavy block layer of PCIe and optimizing the transaction layer, CXL achieves significantly lower latency than standard PCIe. It typically adds only about 20-40ns of latency compared to local DDR memory, exhibiting performance characteristics similar to NUMA remote socket access.   
+* Latency: By bypassing the heavy block layer of PCIe and optimizing the transaction layer, CXL achieves significantly lower latency than standard PCIe. It typically adds only about 20-40ns of latency compared to local DDR memory, exhibiting performance characteristics similar to NUMA remote socket access.   
 
 
 ## CXL Device Protocols
-Although the CXL interface physically shares a single link, it logically multiplexes three protocols.   
+* Although the CXL interface physically shares a single link, it logically multiplexes three protocols.   
 
-CXL.io: Functionally nearly identical to PCIe. Handles device discovery, enumeration, configuration, interrupts, and non-coherent Load/Store. All CXL devices must support CXL.io.   
+* CXL.io: Functionally nearly identical to PCIe. Handles device discovery, enumeration, configuration, interrupts, and non-coherent Load/Store. All CXL devices must support CXL.io.   
 
-CXL.cache: Allows the Device to access the Host's (CPU) memory coherently. This enables devices to snoop the CPU cache or read/write data directly, preventing data inconsistency.   
+* CXL.cache: Allows the Device to access the Host's (CPU) memory coherently. This enables devices to snoop the CPU cache or read/write data directly, preventing data inconsistency.   
 
-CXL.mem: Allows the Host (CPU) to access the Device's attached memory coherently. The CPU can use the device memory like system memory via standard Load/Store instructions without separate drivers or DMA.   
+* CXL.mem: Allows the Host (CPU) to access the Device's attached memory coherently. The CPU can use the device memory like system memory via standard Load/Store instructions without separate drivers or DMA.   
 
 
 
 ### CXL.io / CXL.cache / CXL.mem
 ## Device Types
 ### Type 1: Caching Devices / Accelerators
-Type 1: Caching Devices / Accelerators
-Protocols: CXL.io + CXL.cache
+* Type 1: Caching Devices / Accelerators
+* Protocols: CXL.io + CXL.cache
 
-Characteristics: Accelerators that lack local memory or do not expose it to the host. They use CXL.cache to utilize the host CPU's memory as their cache.
+* Characteristics: Accelerators that lack local memory or do not expose it to the host. They use CXL.cache to utilize the host CPU's memory as their cache.
 
-Key Devices: SmartNICs, Atomic accelerators. For example, a SmartNIC can process network packets and write the results directly to the receive queue (Ring Buffer) in host memory via CXL.cache.
+* Key Devices: SmartNICs, Atomic accelerators. For example, a SmartNIC can process network packets and write the results directly to the receive queue (Ring Buffer) in host memory via CXL.cache.
 ### Type 2: Accelerators with Memory
-Protocols: CXL.io + CXL.cache + CXL.mem
+* Protocols: CXL.io + CXL.cache + CXL.mem
 
-Characteristics: Accelerators with their own high-performance memory (HBM, GDDR, etc.). The CPU can push data to the accelerator memory via CXL.mem, and the accelerator can access system memory via CXL.cache.
+* Characteristics: Accelerators with their own high-performance memory (HBM, GDDR, etc.). The CPU can push data to the accelerator memory via CXL.mem, and the accelerator can access system memory via CXL.cache.
 
-Bias Mode: Supports two modes for memory coherency optimization.   
+* Bias Mode: Supports two modes for memory coherency optimization.   
 
-Host Bias: CPU manages coherency. Device memory is treated like standard system memory.
+* Host Bias: CPU manages coherency. Device memory is treated like standard system memory.
 
-Device Bias: Device manages coherency. Reduces overhead when the accelerator intensively accesses its local memory.
+* Device Bias: Device manages coherency. Reduces overhead when the accelerator intensively accesses its local memory.
 
 Key Devices: GPUs, FPGAs, AI ASICs.   
 ### Type 3: Memory Expanders
-Protocols: CXL.io + CXL.mem
+* Protocols: CXL.io + CXL.mem
 
-Characteristics: The most actively adopted type currently, used to expand system memory capacity and bandwidth. Since it does not support CXL.cache, the device does not cache host memory, but the host uses the device's memory (Host-Managed Device Memory, HDM) as main memory.
+* Characteristics: The most actively adopted type currently, used to expand system memory capacity and bandwidth. Since it does not support CXL.cache, the device does not cache host memory, but the host uses the device's memory (Host-Managed Device Memory, HDM) as main memory.
 
-OS View: The OS sees Type 3 devices as "CPU-less NUMA nodes." Existing NUMA management policies can be applied directly.
+* OS View: The OS sees Type 3 devices as "CPU-less NUMA nodes." Existing NUMA management policies can be applied directly.
 
-Key Devices: CXL Memory Buffers, Memory Expander Cards (Add-in Cards), EDSFF (E1.S/E3.S) memory modules.
+* Key Devices: CXL Memory Buffers, Memory Expander Cards (Add-in Cards), EDSFF (E1.S/E3.S) memory modules.
 
 ## Simulation & Emulation Tools
 ### QEMU CXL Support
-QEMU CXL Support
-QEMU offers the most accessible emulation environment for CXL system software development and driver testing. Key CXL 2.0 features like Type 3 devices, switches, and interleaving are included in the mainline.[link](https://github.com/linuslau/CXL-Emulator-QEMU)
+* QEMU CXL Support
+* QEMU offers the most accessible emulation environment for CXL system software development and driver testing. Key CXL 2.0 features like Type 3 devices, switches, and interleaving are included in the mainline.[link](https://github.com/linuslau/CXL-Emulator-QEMU)
 
 ### Gem5 CXL Models
-Gem5 provides cycle-accurate simulation for hardware architectures, used for precise analysis of CXL performance impacts. While QEMU focuses on functional emulation, Gem5 excels in timing and latency modeling.
-CXLSim & gem5-CXL: Researchers have released repositories like 'CXLSim' or 'gem5-CXL' extending Gem5 to model CXL transaction and link layer latencies. These models simulate FLIT packing/unpacking overheads, switch delays (e.g., tens of ns per hop), and PCIe bus contention.
-Usage: In Full System mode, booting a real Linux kernel and running benchmarks allows analysis of how CXL memory latency affects overall system IPC (Instructions Per Cycle) and application performance.   
+* Gem5 provides cycle-accurate simulation for hardware architectures, used for precise analysis of CXL performance impacts. While QEMU focuses on functional emulation, Gem5 excels in timing and latency modeling.
+* CXLSim & gem5-CXL: Researchers have released repositories like 'CXLSim' or 'gem5-CXL' extending Gem5 to model CXL transaction and link layer latencies. These models simulate FLIT packing/unpacking overheads, switch delays (e.g., tens of ns per hop), and PCIe bus contention.
+* Usage: In Full System mode, booting a real Linux kernel and running benchmarks allows analysis of how CXL memory latency affects overall system IPC (Instructions Per Cycle) and application performance.   
 
 1. gem5-CXL [link](https://github.com/SlugLab/gem5-CXL)
 2. CXLSim [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10936878&casa_token=rhmkm_VCCTAAAAAA:Xp7PqW9c-N9hGD-Oxkwq8i4oOXIDt-oE72BJdH0sa6Wq3fvtJWdRsuBqi2BVqimXx-XkLw&tag=1)
 
 ### Intel CoFluent / DRAMSys
-Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
-DRAMSys: A SystemC TLM-2.0 based DRAM subsystem simulator, which has recently added CXL.mem protocol support. It models memory media (DDR5, HBM) behavior behind the CXL controller precisely, allowing analysis of the impact of refresh cycles or bank conflicts on overall CXL performance. [link1](https://www.iese.fraunhofer.de/en/solution/dramsys.html), [link2](https://wiki.f-si.org/index.php?title=DRAM_simulation_with_the_simulator_DRAMSys)
+* Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
+* DRAMSys: A SystemC TLM-2.0 based DRAM subsystem simulator, which has recently added CXL.mem protocol support. It models memory media (DDR5, HBM) behavior behind the CXL controller precisely, allowing analysis of the impact of refresh cycles or bank conflicts on overall CXL performance. [link1](https://www.iese.fraunhofer.de/en/solution/dramsys.html), [link2](https://wiki.f-si.org/index.php?title=DRAM_simulation_with_the_simulator_DRAMSys)
 
 
 ## Profiling & Benchmarks
@@ -199,7 +199,8 @@ DRAMSys: A SystemC TLM-2.0 based DRAM subsystem simulator, which has recently ad
 - [Xcena CXL SoC](https://xcena.com/)
 
 ## Contributing
-- JSL  M.S Inha university 
+- JSL  M.S Inha university
+  If you want to contribute on a "CXL is All You Need", please contact wlstjr4425@gmail.com.
 
 ## License
 - MIT
