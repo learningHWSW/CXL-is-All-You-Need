@@ -144,6 +144,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 ### Micro-benchmarks
 - Weisgut, Marcel, et al. "CXL-Bench: Benchmarking Shared CXL Memory Access." Proceedings of the VLDB Endowment. ISSN 2150: 8097. [PDF](https://hpi.de/oldsite/fileadmin/user_upload/fachgebiete/rabl/publications/2025/p10_weisgut_cxlbench.pdf)
 ### profiling
+- Liu, Jinshu, et al. "Systematic cxl memory characterization and performance analysis at scale." Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3676641.3715987)
+- Liu, Jinshu, et al. "Dissecting cxl memory performance at scale: Analysis, modeling, and optimization." arXiv preprint arXiv:2409.14317 (2024). [PDF](https://arxiv.org/pdf/2409.14317)
 - Ji, Houxiang, et al. "Demystifying a CXL Type-2 Device: A Heterogeneous Cooperative Computing Perspective." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/document/10764537?denied=)
 ### Application Workloads
 - Wang, Xi, et al. "Exploring and evaluating real-world cxl: use cases and system adoption." arXiv preprint arXiv:2405.14209 (2024). [PDF](https://arxiv.org/pdf/2405.14209)
@@ -151,11 +153,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 ## Research Papers
 ### Survey & Tutorials
-- Liu, Jinshu, et al. "Systematic cxl memory characterization and performance analysis at scale." Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3676641.3715987)
-- Liu, Jinshu, et al. "Dissecting cxl memory performance at scale: Analysis, modeling, and optimization." arXiv preprint arXiv:2409.14317 (2024). [PDF](https://arxiv.org/pdf/2409.14317)
 - Das Sharma, Debendra, Robert Blankenship, and Daniel Berger. "An introduction to the compute express link (cxl) interconnect." ACM Computing Surveys 56.11 (2024): 1-37. [PDF](https://dl.acm.org/doi/pdf/10.1145/3669900)
 - Sharma, Debendra Das. "Compute Express Link®: An open industry-standard interconnect enabling heterogeneous data-centric computing." 2022 IEEE Symposium on High-Performance Interconnects (HOTI). IEEE, 2022. [PDF](https://ieeexplore.ieee.org/document/9912551?denied=)
-
 
 
 
