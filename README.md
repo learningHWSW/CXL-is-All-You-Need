@@ -137,10 +137,11 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 ### CXL Simulation
 - Yang, Yiwei, et al. "CXLMemSim: A pure software simulated CXL. mem for performance characterization." arXiv preprint arXiv:2303.06153 (2023). [PDF](https://arxiv.org/pdf/2303.06153) [github](https://github.com/SlugLab/CXLMemSim)
-- CXLSim [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10936878&casa_token=rhmkm_VCCTAAAAAA:Xp7PqW9c-N9hGD-Oxkwq8i4oOXIDt-oE72BJdH0sa6Wq3fvtJWdRsuBqi2BVqimXx-XkLw&tag=1)
+- Kim, Seongbeom, et al. "CXLSim: A Simulator for CXL Memory Expander." 2025 IEEE International Conference on Big Data and Smart Computing (BigComp). IEEE, 2025. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10936878&casa_token=rhmkm_VCCTAAAAAA:Xp7PqW9c-N9hGD-Oxkwq8i4oOXIDt-oE72BJdH0sa6Wq3fvtJWdRsuBqi2BVqimXx-XkLw&tag=1)
 
 ### CXL Emulation
 - OCEAN – Open-source CXL Emulation at Hyperscale Architecture and Networking [github](https://github.com/cxl-emu/OCEAN)
+- Gioiosa, Roberto, et al. "Hardware-Software Co-Development for Emerging CXL Architectures." [PDF](https://www.memsys.io/wp-content/uploads/ninja-forms/5/MemSys_25.pdf)
 
 ### Intel CoFluent / DRAMSys
 * Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
@@ -172,6 +173,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Li, Huaicheng, et al. "Pond: Cxl-based memory pooling systems for cloud platforms." Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2. 2023. [PDF](https://dl.acm.org/doi/pdf/10.1145/3575693.3578835)
 - Boles, David, Daniel Waddington, and David A. Roberts. "Cxl-enabled enhanced memory functions." IEEE Micro 43.2 (2023): 58-65. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10015193)
 - Ahn, Minseon, et al. "Enabling CXL memory expansion for in-memory database management systems." Proceedings of the 18th International Workshop on Data Management on New Hardware. 2022. [PDF](https://dl.acm.org/doi/epdf/10.1145/3533737.3535090)
+- Yang, Qirui, et al. "Performance evaluation on cxl-enabled hybrid memory pool." 2022 IEEE International Conference on Networking, Architecture and Storage (NAS). IEEE, 2022. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9925356&casa_token=OgB61hOM3t4AAAAA:tiF4wIV4M3X8koPVlzlfANIban_KD3fWmdyeTWPNnyDWHkPVD0AbNrrhcc3ab_uSlnswIA)
 
 
 
@@ -203,6 +205,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - [Controller IP for CXL](https://www.cadence.com/ko_KR/home/tools/silicon-solutions/protocol-ip/pcie-and-compute-express-link/controller-for-pcie-and-cxl/controller-for-cxl.html)
 - [Panmnesia CXL switch](https://panmnesia.com/)
 - [Xcena CXL SoC](https://xcena.com/)
+- [AMD Versal CXL FPGA](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/gen2/premium-series.html)
+- [Intel CXL FPGA](https://www.altera.com/products/devkit/a1jui0000049utmmam/agilex-7-fpga-i-series-development-kit-2x-r-tile-and-1x-f-tile)
 
 ## Contributing
 - JSL  M.S Inha university
