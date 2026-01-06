@@ -196,6 +196,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 ## Learning Resources
 ### Talks & Videos
 - [CXL Consortium Youtube](https://www.youtube.com/@CXLConsortium)
+- [Open Compute Project Youtube](https://www.youtube.com/@OpencomputeOrg)
   
 ### Articles & Blogs
 ## Community & Ecosystem
