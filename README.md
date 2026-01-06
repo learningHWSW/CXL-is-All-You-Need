@@ -207,6 +207,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - [Xcena CXL SoC](https://xcena.com/)
 - [AMD Versal CXL FPGA](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/gen2/premium-series.html)
 - [Intel CXL FPGA](https://www.altera.com/products/devkit/a1jui0000049utmmam/agilex-7-fpga-i-series-development-kit-2x-r-tile-and-1x-f-tile)
+- [OCP Global summit 2025](https://www.opencompute.org/events/past-events/2025-ocp-global-summit)
 
 ## Contributing
 - JSL  M.S Inha university
