@@ -143,6 +143,9 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - OCEAN – Open-source CXL Emulation at Hyperscale Architecture and Networking [github](https://github.com/cxl-emu/OCEAN)
 - Gioiosa, Roberto, et al. "Hardware-Software Co-Development for Emerging CXL Architectures." [PDF](https://www.memsys.io/wp-content/uploads/ninja-forms/5/MemSys_25.pdf)
 
+### software
+- MemMachine, an open-source memory layer for advanced AI agents. [github](https://github.com/MemMachine/MemMachine)
+
 ### Intel CoFluent / DRAMSys
 * Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
 * DRAMSys: A SystemC TLM-2.0 based DRAM subsystem simulator, which has recently added CXL.mem protocol support. It models memory media (DDR5, HBM) behavior behind the CXL controller precisely, allowing analysis of the impact of refresh cycles or bank conflicts on overall CXL performance. [link1](https://www.iese.fraunhofer.de/en/solution/dramsys.html), [link2](https://wiki.f-si.org/index.php?title=DRAM_simulation_with_the_simulator_DRAMSys)
@@ -191,6 +194,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Xia, Qirong, et al. "Hardware-accelerated kernel-space memory compression using Intel QAT." IEEE Computer Architecture Letters (2025). [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10856688)
 - Ji, Houxiang, et al. "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator." 2025 USENIX Annual Technical Conference (USENIX ATC 25). 2025. [PDF](https://www.usenix.org/system/files/atc25-ji.pdf)
 - Zhou, Zhe, et al. "NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024.[PDF](https://arxiv.org/html/2403.18702v2)
+- Zhong, Yuhong, et al. "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization." Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764812)
+- Wang, Jaylen, et al. "Designing cloud servers for lower carbon." 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/iel8/10609566/10609567/10609689.pdf)
 
 
 ## Learning Resources
@@ -209,6 +214,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - [AMD Versal CXL FPGA](https://www.amd.com/en/products/adaptive-socs-and-fpgas/versal/gen2/premium-series.html)
 - [Intel CXL FPGA](https://www.altera.com/products/devkit/a1jui0000049utmmam/agilex-7-fpga-i-series-development-kit-2x-r-tile-and-1x-f-tile)
 - [OCP Global summit 2025](https://www.opencompute.org/events/past-events/2025-ocp-global-summit)
+- [Memverge](https://memverge.ai/cxl-forum-at-fms-2022/)
 
 ## Contributing
 - JSL  M.S Inha university
