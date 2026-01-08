@@ -170,6 +170,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 
 ### Memory Pooling & Disaggregation
+- Zhong, Yuhong, et al. "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization." Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764812)
 - Hermes, Jon, et al. "Udon: A case for offloading to general purpose compute on cxl memory." arXiv preprint arXiv:2404.02868 (2024). [PDF](https://arxiv.org/pdf/2404.02868)
 - Gouk, Donghyun, et al. "Memory pooling with cxl." IEEE Micro 43.2 (2023): 48-57. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10018233&casa_token=leUkWhBNNfcAAAAA:pE2GPTE_nrGizvkiilSGRa6gXqL-cGPvbcmwYdMHZrfr0BB_13FN7TysjDE1k3DA2Zf_zw)
 - Wu, Jianbo, et al. "Performance Study of CXL Memory Topology." Proceedings of the International Symposium on Memory Systems. 2024. [PDF](https://dl.acm.org/doi/pdf/10.1145/3695794.3695809)
@@ -191,10 +192,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Maruf, Hasan Al, et al. "Tpp: Transparent page placement for cxl-enabled tiered-memory." Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3. 2023. [PDF](https://scontent-ssn1-1.xx.fbcdn.net/v/t39.8562-6/330632436_575201664331658_1420778763610758182_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=7DeV0Rqi8cMQ7kNvwE6ceoi&_nc_oc=AdnwlvG5zxkVLGddNhmI6VK2R9L4oGj53hdUo8R_WNjqrcXW-4sS5vfEW-KwK5-RVQA&_nc_zt=14&_nc_ht=scontent-ssn1-1.xx&_nc_gid=5YH5knyy5h6cUO8tJchJEw&oh=00_AfrOMxrkdW5KK8cFedRhfmOoklTUrR0_AWiIYekIGZ9B0Q&oe=695EBA6F)
 
 ### Use Cases
-- Xia, Qirong, et al. "Hardware-accelerated kernel-space memory compression using Intel QAT." IEEE Computer Architecture Letters (2025). [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10856688)
 - Ji, Houxiang, et al. "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator." 2025 USENIX Annual Technical Conference (USENIX ATC 25). 2025. [PDF](https://www.usenix.org/system/files/atc25-ji.pdf)
 - Zhou, Zhe, et al. "NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024.[PDF](https://arxiv.org/html/2403.18702v2)
-- Zhong, Yuhong, et al. "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization." Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764812)
 - Wang, Jaylen, et al. "Designing cloud servers for lower carbon." 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/iel8/10609566/10609567/10609689.pdf)
 
 
