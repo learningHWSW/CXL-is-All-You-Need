@@ -145,6 +145,8 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 ### software
 - MemMachine, an open-source memory layer for advanced AI agents. [github](https://github.com/MemMachine/MemMachine)
+- Scalable Memory Development Kit [github](https://github.com/OpenMPDK/SMDK)
+- Famfs Shared Memory Filesystem Framework [github](https://github.com/cxl-micron-reskit/famfs)
 
 ### Intel CoFluent / DRAMSys
 * Intel CoFluent: A modeling tool for large-scale data center or cluster-level system design. It is useful for visualizing traffic flows, bottlenecks, and resource utilization in CXL memory pooling scenarios before actual hardware deployment. [link1](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-system-planning-and-optimization-paper.pdf), [link2](https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/cofluent-methodology-for-sysml-white-paper.pdf)
