@@ -197,6 +197,7 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Ji, Houxiang, et al. "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator." 2025 USENIX Annual Technical Conference (USENIX ATC 25). 2025. [PDF](https://www.usenix.org/system/files/atc25-ji.pdf)
 - Zhou, Zhe, et al. "NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024.[PDF](https://arxiv.org/html/2403.18702v2)
 - Wang, Jaylen, et al. "Designing cloud servers for lower carbon." 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/iel8/10609566/10609567/10609689.pdf)
+- Kim, Hyungyo, et al. "LIA: A Single-GPU LLM Inference Acceleration with Cooperative AMX-Enabled CPU-GPU Computation and CXL Offloading." Proceedings of the 52nd Annual International Symposium on Computer Architecture. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3695053.3731092)
 
 
 ## Learning Resources
