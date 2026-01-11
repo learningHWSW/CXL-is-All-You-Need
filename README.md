@@ -217,7 +217,10 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - [Intel CXL FPGA](https://www.altera.com/products/devkit/a1jui0000049utmmam/agilex-7-fpga-i-series-development-kit-2x-r-tile-and-1x-f-tile)
 - [OCP Global summit 2025](https://www.opencompute.org/events/past-events/2025-ocp-global-summit)
 - [Memverge](https://memverge.ai/cxl-forum-at-fms-2022/)
-- [The future of memory and storage](https://futurememorystorage.com/) 
+- [The future of memory and storage](https://futurememorystorage.com/)
+- [LIQID Composable Memory Solutions](liqid.com/products/composable-memory-solutions)
+- [CXL Near-Memory Compute and Expansion](https://www.marvell.com/products/cxl.html)
+- [Xconn cxl switch](https://www.xconn-tech.com/)
 
 ## Contributing
 - JSL  M.S Inha university
