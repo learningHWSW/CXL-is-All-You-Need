@@ -160,9 +160,19 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Liu, Jinshu, et al. "Systematic cxl memory characterization and performance analysis at scale." Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3676641.3715987)
 - Liu, Jinshu, et al. "Dissecting cxl memory performance at scale: Analysis, modeling, and optimization." arXiv preprint arXiv:2409.14317 (2024). [PDF](https://arxiv.org/pdf/2409.14317)
 - Ji, Houxiang, et al. "Demystifying a CXL Type-2 Device: A Heterogeneous Cooperative Computing Perspective." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/document/10764537?denied=)
+
+
 ### Application Workloads
+- Zeng, Jianping, et al. "Performance characterizations and usage guidelines of samsung cxl memory module hybrid prototype." arXiv preprint arXiv:2503.22017 (2025). [PDF](https://arxiv.org/pdf/2503.22017)
 - Wang, Xi, et al. "Exploring and evaluating real-world cxl: use cases and system adoption." arXiv preprint arXiv:2405.14209 (2024). [PDF](https://arxiv.org/pdf/2405.14209)
+- Lee, KyungSoo, et al. "Improving key-value cache performance with heterogeneous memory tiering: A case study of cxl-based memory expansion." IEEE Micro (2024). [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10414997&casa_token=JJTNLYjHOKAAAAAA:w-84EOSF3QlUl7dJCoE-Lp_dRnugJGnwu2zg20R-J0KIRBdAnblJDZ1SM6j55CfjKPwph55MlA)
+
   
+## Protocols
+- Lee, Suyeon, et al. "Offloading to CXL-based Computational Memory." arXiv preprint arXiv:2512.04449 (2025). [PDF](https://arxiv.org/pdf/2512.04449)
+  
+
+
 
 ## Research Papers
 ### Survey & Tutorials
@@ -173,13 +183,16 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 
 ### Memory Pooling & Disaggregation
 - Zhong, Yuhong, et al. "Oasis: Pooling PCIe Devices Over CXL to Boost Utilization." Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3731569.3764812)
+- Park, Junhyeok, et al. "Maximizing Interconnect Bandwidth and Efficiency in Nonvolatile Memory, Express-Based Key-Value Solid-State Devices With Fine-Grained Value Transfer." IEEE Micro 45.6 (2025): 82-90. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10018865&casa_token=xhfIeI12O_oAAAAA:x2LCJGyWXqmJonAUI1BLX4BVL98fMIXKvotDhY0ynKr2g0MLc-p1dS8ow0OwTlQtp52akRMrDA)
 - Hermes, Jon, et al. "Udon: A case for offloading to general purpose compute on cxl memory." arXiv preprint arXiv:2404.02868 (2024). [PDF](https://arxiv.org/pdf/2404.02868)
-- Gouk, Donghyun, et al. "Memory pooling with cxl." IEEE Micro 43.2 (2023): 48-57. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10018233&casa_token=leUkWhBNNfcAAAAA:pE2GPTE_nrGizvkiilSGRa6gXqL-cGPvbcmwYdMHZrfr0BB_13FN7TysjDE1k3DA2Zf_zw)
 - Wu, Jianbo, et al. "Performance Study of CXL Memory Topology." Proceedings of the International Symposium on Memory Systems. 2024. [PDF](https://dl.acm.org/doi/pdf/10.1145/3695794.3695809)
+- Ham, Hyungkyu, et al. "Low-overhead general-purpose near-data processing in cxl memory expanders." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10764494&casa_token=nNXqWIs7H3sAAAAA:1b7m1D4LL05uuR003ZOnVQbZDECVc5PV8FHyjfDUJ46tsLXQqKUTc3c35_f1pnqqDaZWcWdyVA)
+- Gouk, Donghyun, et al. "Memory pooling with cxl." IEEE Micro 43.2 (2023): 48-57. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10018233&casa_token=leUkWhBNNfcAAAAA:pE2GPTE_nrGizvkiilSGRa6gXqL-cGPvbcmwYdMHZrfr0BB_13FN7TysjDE1k3DA2Zf_zw)
 - Li, Huaicheng, et al. "Pond: Cxl-based memory pooling systems for cloud platforms." Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2. 2023. [PDF](https://dl.acm.org/doi/pdf/10.1145/3575693.3578835)
 - Boles, David, Daniel Waddington, and David A. Roberts. "Cxl-enabled enhanced memory functions." IEEE Micro 43.2 (2023): 58-65. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10015193)
 - Ahn, Minseon, et al. "Enabling CXL memory expansion for in-memory database management systems." Proceedings of the 18th International Workshop on Data Management on New Hardware. 2022. [PDF](https://dl.acm.org/doi/epdf/10.1145/3533737.3535090)
 - Yang, Qirui, et al. "Performance evaluation on cxl-enabled hybrid memory pool." 2022 IEEE International Conference on Networking, Architecture and Storage (NAS). IEEE, 2022. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9925356&casa_token=OgB61hOM3t4AAAAA:tiF4wIV4M3X8koPVlzlfANIban_KD3fWmdyeTWPNnyDWHkPVD0AbNrrhcc3ab_uSlnswIA)
+- Ha, Minho, et al. "Dynamic capacity service for improving cxl pooled memory efficiency." IEEE Micro 43.2 (2023): 39-47. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10018865&casa_token=xhfIeI12O_oAAAAA:x2LCJGyWXqmJonAUI1BLX4BVL98fMIXKvotDhY0ynKr2g0MLc-p1dS8ow0OwTlQtp52akRMrDA)
 
 
 
@@ -188,22 +201,35 @@ Key Devices: GPUs, FPGAs, AI ASICs.
 - Sun, Yan, et al. "Demystifying cxl memory with genuine cxl-ready systems and devices." Proceedings of the 56th Annual IEEE/ACM International Symposium on Microarchitecture. 2023.[PDF](https://dl.acm.org/doi/pdf/10.1145/3613424.3614256)
 - Cabrera, Anthony M., Aaron R. Young, and Jeffrey S. Vetter. "Design and analysis of CXL performance models for tightly-coupled heterogeneous computing." Proceedings of the 1st International Workshop on Extreme Heterogeneity Solutions. 2022. [PDF](https://dl.acm.org/doi/pdf/10.1145/3529336.3530817)
 
+
   
 
 ### System Software & OS Support
 - Maruf, Hasan Al, et al. "Tpp: Transparent page placement for cxl-enabled tiered-memory." Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3. 2023. [PDF](https://scontent-ssn1-1.xx.fbcdn.net/v/t39.8562-6/330632436_575201664331658_1420778763610758182_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=e280be&_nc_ohc=7DeV0Rqi8cMQ7kNvwE6ceoi&_nc_oc=AdnwlvG5zxkVLGddNhmI6VK2R9L4oGj53hdUo8R_WNjqrcXW-4sS5vfEW-KwK5-RVQA&_nc_zt=14&_nc_ht=scontent-ssn1-1.xx&_nc_gid=5YH5knyy5h6cUO8tJchJEw&oh=00_AfrOMxrkdW5KK8cFedRhfmOoklTUrR0_AWiIYekIGZ9B0Q&oe=695EBA6F)
 
 ### Use Cases
+- Liu, Dong, and Yanxuan Yu. "CXL-SpecKV: A Disaggregated FPGA Speculative KV-Cache for Datacenter LLM Serving." Proceedings of the 2026 ACM/SIGDA International Symposium on Field Programmable Gate Arrays. 2026. [PDF](https://dl.acm.org/doi/epdf/10.1145/3748173.3779188)
+- Jung, Myoungsoo. "Compute Can't Handle the Truth: Why Communication Tax Prioritizes Memory and Interconnects in Modern AI Infrastructure." arXiv preprint arXiv:2507.07223 (2025). [PDF](https://arxiv.org/pdf/2507.07223)
 - Ji, Houxiang, et al. "Para-ksm: Parallelized Memory Deduplication with Data Streaming Accelerator." 2025 USENIX Annual Technical Conference (USENIX ATC 25). 2025. [PDF](https://www.usenix.org/system/files/atc25-ji.pdf)
+- Kim, Hyungyo, et al. "LIA: A Single-GPU LLM Inference Acceleration with Cooperative AMX-Enabled CPU-GPU Computation and CXL Offloading." Proceedings of the 52nd Annual International Symposium on Computer Architecture. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3695053.3731092)
+- Hwang, Minsoon, et al. "MOSAIC®: Chiplet Architecture Based on Die-to-Die Interface for CXL® Memory Applications and Limitations in Bandwidth, Latency, and Power." 2024 31st IEEE International Conference on Electronics, Circuits and Systems (ICECS). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10848977&casa_token=2JjtCu_3PRoAAAAA:_5HXhqQ7WUB6vXaCtZgY1wnTJ6midprP5m3wN2mxdZogt3kXK86QJZqaQcXzXS7VF1nFa7MKiQ&tag=1)
 - Zhou, Zhe, et al. "NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering." 2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO). IEEE, 2024.[PDF](https://arxiv.org/html/2403.18702v2)
 - Wang, Jaylen, et al. "Designing cloud servers for lower carbon." 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA). IEEE, 2024. [PDF](https://ieeexplore.ieee.org/iel8/10609566/10609567/10609689.pdf)
-- Kim, Hyungyo, et al. "LIA: A Single-GPU LLM Inference Acceleration with Cooperative AMX-Enabled CPU-GPU Computation and CXL Offloading." Proceedings of the 52nd Annual International Symposium on Computer Architecture. 2025. [PDF](https://dl.acm.org/doi/pdf/10.1145/3695053.3731092)
+- Gouk, Donghyun, et al. "Breaking barriers: Expanding gpu memory with sub-two digit nanosecond latency cxl controller." Proceedings of the 16th ACM Workshop on Hot Topics in Storage and File Systems. 2024. [PDF](https://dl.acm.org/doi/pdf/10.1145/3655038.3665953)
+- Ryu, Seokhyun, et al. "System optimization of data analytics platforms using compute express link (CXL) memory." 2023 IEEE International Conference on Big Data and Smart Computing (BigComp). IEEE, 2023. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10066614)
+- Sim, Joonseop, et al. "Computational cxl-memory solution for accelerating memory-intensive applications." IEEE Computer Architecture Letters 22.1 (2022): 5-8. [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9969883&casa_token=hG0xQ3o1nu8AAAAA:rtGdiP9AhKskKG-uio9p1HO33EDKQFQEiYmj3NsRJXuERkT-46sJ94liza0NvjRR8SMAeSqP4Q)
+
+
+
 
 
 ## Learning Resources
 ### Talks & Videos
 - [CXL Consortium Youtube](https://www.youtube.com/@CXLConsortium)
 - [Open Compute Project Youtube](https://www.youtube.com/@OpencomputeOrg)
+
+
+
   
 ### Articles & Blogs
 ## Community & Ecosystem
